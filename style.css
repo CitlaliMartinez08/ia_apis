@@ -1,0 +1,25 @@
+/* Estilos personalizados para centrar y mejorar la apariencia */
+body {
+    background-color: #f0f4f8; /* Un fondo gris claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 95%;
+    padding: 1.5rem;
+}
+.btn-primary {
+    background-color: #3b82f6; /* Azul de Tailwind */
+    border: none;
+    transition: background-color 0.3s;
+    border-radius: 0.5rem;
+}
+.btn-primary:hover {
+    background-color: #2563eb;
+}

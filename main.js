@@ -141,3 +141,4 @@ function displayMessage(message, type) {
     messageDisplay.classList.add(colorClass);
 }
 
+

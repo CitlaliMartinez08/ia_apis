@@ -1,5 +1,5 @@
 
-const N8N_WEBHOOK_URL = 'https://citma.app.n8n.cloud/webhook-test/e3f93b33-4a35-40d7-818f-624886d921fd';
+const N8N_WEBHOOK_URL = 'https://cit8.app.n8n.cloud/webhook-test/e3f93b33-4a35-40d7-818f-624886d921fd';
 
 const form = document.getElementById('calculationForm');
 const expressionInput = document.getElementById('mathExpression');
@@ -140,3 +140,4 @@ function displayMessage(message, type) {
     messageDisplay.textContent = message;
     messageDisplay.classList.add(colorClass);
 }
+
